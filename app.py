@@ -13,7 +13,7 @@ import datetime as dt
 col1, col2, col3, col4 = st.columns([1,1,1,1])
 
 with col1:
-  ticker_symbol = st.selectbox("Select Ticker", options = ["AAPL", "MSFT", "GOOG"])
+  ticker_symbol = st.selectbox("Select Organization", options = ["AAPL", "MSFT", "GOOG"])
 with col2:
   start_date = st.date_input("Start Date", dt.date(2024, 1, 1))
 with col3:
