@@ -7,9 +7,7 @@ import pickle
 import joblib
 
 # model = load_model("model.h5")
-model = joblib.load("model.joblib")
-# with open("model.pkl", "rb") as file:
-#     model = pickle.load(file)
+
 
 df = pd.read_csv("iris.csv")
 sl_max = df["sepal_length"].max()
