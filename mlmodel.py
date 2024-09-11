@@ -3,8 +3,12 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import streamlit as st
+import pickle
+import joblib
 
-model = load_model("model.h5")
+# model = load_model("model.h5")
+model = joblib.load("model.joblib")
+
 df = pd.read_csv("iris.csv")
 sl_max = df["sepal_length"].max()
 sl_min = df["sepal_length"].min()
