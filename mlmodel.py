@@ -6,8 +6,8 @@ import streamlit as st
 import pickle
 import joblib
 
-model = load_model("model.h5")
-# model = joblib.load("model.joblib")
+# model = load_model("model.h5")
+model = joblib.load("model.joblib")
 # with open("model.pkl", "rb") as file:
 #     model = pickle.load(file)
 
