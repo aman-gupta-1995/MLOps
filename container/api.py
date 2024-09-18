@@ -6,9 +6,9 @@ import sklearn
 import catboost
 from extra import car_enc, categories, column_name
 
-model = joblib.load("cgbt.joblib")
-scaler = joblib.load("scaler.joblib")
-encoder = joblib.load("encoder.joblib")
+model = joblib.load("artifacts/cgbt.joblib")
+scaler = joblib.load("artifacts/scaler.joblib")
+encoder = joblib.load("artifacts/encoder.joblib")
 mean_enc = np.mean(np.array(list(car_enc.values())))
 
 api = Flask(__name__)
