@@ -3,8 +3,8 @@ FROM python:3.12.6-slim-bullseye
 WORKDIR /container1
 
 RUN python3 -m pip install --upgrade pip
-COPY require.txt require.txt
-RUN pip install -r require.txt
+COPY requirement.txt requirement.txt
+RUN pip install -r requirement.txt
 
 COPY . .
 
