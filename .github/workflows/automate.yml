@@ -22,7 +22,7 @@ jobs:
                 python-version: "3.12"
             
             - name: Install Dependencies
-              run: |
+              run: | 
                 cd container
                 python -m pip install --upgrade pip
                 pip install pytest
@@ -32,5 +32,8 @@ jobs:
               run: |
                 cd container
                 pytest
-
+# 1. .github/workflows must be in root directory so github action can auto track it
+# 2. it will track any changes made in entire repo
+# 3. path changed by cd is just to show where commands needs to be run wrt to presence of other files
+# like our app file etc. But it tracks any changes in antire repo.
 
