@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/family/Downloads/Main%20Download/Our/Study/Github/MLOps/mlruns/926809003956710759/d457cf7d3a254f59a85b8d10e491efb4/artifacts
+end_time: 1727726786751
+entry_point_name: ''
+experiment_id: '926809003956710759'
+lifecycle_stage: active
+run_id: d457cf7d3a254f59a85b8d10e491efb4
+run_name: bald-loon-167
+run_uuid: d457cf7d3a254f59a85b8d10e491efb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727726779068
+status: 3
+tags: []
+user_id: family

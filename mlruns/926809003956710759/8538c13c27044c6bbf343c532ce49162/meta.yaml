@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/family/Downloads/Main%20Download/Our/Study/Github/MLOps/mlruns/926809003956710759/8538c13c27044c6bbf343c532ce49162/artifacts
+end_time: 1727726799766
+entry_point_name: ''
+experiment_id: '926809003956710759'
+lifecycle_stage: active
+run_id: 8538c13c27044c6bbf343c532ce49162
+run_name: enthused-trout-240
+run_uuid: 8538c13c27044c6bbf343c532ce49162
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727726792518
+status: 3
+tags: []
+user_id: family

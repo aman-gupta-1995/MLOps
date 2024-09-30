@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/family/Downloads/Main%20Download/Our/Study/Github/MLOps/mlruns/926809003956710759/563914d87293453a941e2f273b7b617a/artifacts
+end_time: 1727726792512
+entry_point_name: ''
+experiment_id: '926809003956710759'
+lifecycle_stage: active
+run_id: 563914d87293453a941e2f273b7b617a
+run_name: dashing-goat-836
+run_uuid: 563914d87293453a941e2f273b7b617a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727726786762
+status: 3
+tags: []
+user_id: family
